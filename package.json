@@ -1,0 +1,25 @@
+{
+  "name": "google-index-proxy",
+  "version": "1.0.0",
+  "description": "Node.js backend for Google Indexing API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "google",
+    "indexing",
+    "api",
+    "seo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
